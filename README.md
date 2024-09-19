@@ -1,32 +1,30 @@
-# MavenMovies Sakila Database Analysis
+# **TMDB Movies Dataset Analysis**
 
-## Project Overview:
-This project focuses on extracting key insights from the **MavenMovies Sakila database**, aimed at understanding rental trends, film popularity, and store performance. The objective was to conduct a data-driven analysis to identify patterns that can inform better business decisions.
+#### **Project Overview:**
+This project involves the analysis of the TMDb (The Movie Database) dataset, which contains information on **over 45,000 movies**. The goal is to uncover trends in movie genres, revenue, and ratings, providing valuable insights for decision-making in the movie industry.
 
-### Objectives:
-1. **Rental Trends**:
-   - **Monthly Trends**: Analyzed monthly rental patterns to identify peaks and slumps in demand.
-   - **Peak Hours**: Determined the most active rental hours based on transaction data.
+#### **Objective:**
+- **Analyze data** to identify key trends in movie production, genre popularity, and revenue generation.
+- Explore **relationships between budget, revenue, and ratings** to understand profitability.
 
-2. **Film Popularity**:
-   - **Top 10 Most Rented Films**: Discovered the most frequently rented films.
-   - **Category Popularity**: Analyzed which film categories received the highest number of rentals.
+#### **Tools & Technologies:**
+- **Python**: For data manipulation and analysis.
+- **Pandas**: Data cleaning and wrangling.
+- **Matplotlib & Seaborn**: Data visualization.
+- **Jupyter Notebook**: Interactive environment for code execution.
 
-3. **Store Performance**:
-   - **Top Performing Store**: Assessed which store generated the most rental revenue.
-   - **Staff Performance**: Evaluated rental transactions handled by staff members to measure their contribution.
+#### **Key Insights:**
+- Identified a **20% increase in action movie production** over the last decade.
+- Explored **budget vs. revenue** trends to derive profitability insights.
 
-### Deliverables:
-- **SQL Queries**: Developed efficient SQL scripts for data extraction, helping identify trends and metrics from the rental database.
-- **Excel Visualizations**: Created insightful visualizations, including line and bar charts, to illustrate rental patterns, peak hours, popular films, and category breakdowns.
-- **Final Presentation**: Summarized key findings with charts and analysis to communicate the results clearly.
+#### **Learning Outcome:**
+- Enhanced **Python programming skills** by analyzing large datasets.
+- Gained insights into **data-driven trends** affecting the movie industry.
 
-### Tools Used:
-- **SQL**: For comprehensive data querying and analysis.
-- **Excel**: To create dynamic visualizations and charts that made data-driven insights easy to interpret.
-- **PowerPoint**: For presenting all findings in a structured, professional format.
+#### **Dataset:**
+- TMDb movie dataset, including metadata, credits, and ratings.
 
-### Key Takeaways:
-This project honed my skills in SQL for data extraction and analysis, while Excel enabled me to present data visually for more accessible insights. It also deepened my understanding of how data-driven decisions can improve business operations.
-
-I’m eager to apply these skills to future data analysis projects and continue collaborating with other data enthusiasts. Looking forward to connecting with professionals passionate about leveraging data for impactful insights!
+#### **How to Run:**
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Open and run the Jupyter Notebook (`movie_dataset_analysis.ipynb`).
